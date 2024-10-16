@@ -3,43 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waldir Bertuqui Neto Duarte - Portfólio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Waldir Bertuqui Neto Duarte - Desenvolvedor Fullstack</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            color: #4d4d4d;
+        }
+        .hero {
+            background: linear-gradient(to right, #6a0572, #ff5f7e);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .btn-custom {
+            background-color: #ff5f7e;
+            color: white;
+            border-radius: 50px;
+            padding: 10px 30px;
+            font-size: 1.2em;
+        }
+        .btn-custom:hover {
+            background-color: #6a0572;
+        }
+        .section-title {
+            color: #6a0572;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .card-custom {
+            border: none;
+            background-color: #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #6a0572;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #ff5f7e;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Waldir Bertuqui Neto Duarte</h1>
-        <h2>Desenvolvedor Fullstack com 15 anos de experiência</h2>
-        <nav>
-            <a href="index-en.html">English Version</a>
-        </nav>
-    </header>
 
-    <section id="sobre-mim">
-        <h3>Sobre Mim</h3>
-        <p>Sou desenvolvedor fullstack com vasto conhecimento em PHP, Python, Laravel, React, e mais. Já trabalhei em projetos para empresas e instituições como a ONU, Panini, e Andbank Brasil.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Waldir Bertuqui Neto Duarte</h1>
+            <p>Desenvolvedor Fullstack com 15 anos de experiência em PHP, Python, Laravel, e muito mais.</p>
+            <a href="#contato" class="btn btn-custom">Entre em contato</a>
+        </div>
     </section>
 
-    <section id="experiencias">
-        <h3>Experiências Profissionais</h3>
-        <ul>
-            <li><strong>WF Desenvolvimento</strong> - Fullstack Developer (Julho de 2020 - Presente)</li>
-            <li><strong>Eskenazi Indústria Gráfica</strong> - Team Lead (2017 - 2020)</li>
-            <li><strong>IBC Software</strong> - Desenvolvedor Web (2012 - 2015)</li>
-        </ul>
+    <!-- Sobre Mim -->
+    <section class="my-5">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p>Sou um desenvolvedor fullstack especializado em criar soluções inovadoras para web. Tenho uma vasta experiência trabalhando com empresas de diversos setores, incluindo a ONU, Panini, e Andbank Brasil. Sempre busco entregar projetos de alta qualidade, com foco em performance e usabilidade.</p>
+        </div>
     </section>
 
-    <section id="projetos">
-        <h3>Projetos</h3>
-        <ul>
-            <li><a href="https://github.com/didicoBe/projeto1">Projeto 1</a> - Descrição do projeto 1.</li>
-            <li><a href="https://github.com/didicoBe/projeto2">Projeto 2</a> - Descrição do projeto 2.</li>
-            <li><a href="https://github.com/didicoBe/projeto3">Projeto 3</a> - Descrição do projeto 3.</li>
-        </ul>
+    <!-- Experiências Profissionais -->
+    <section class="my-5">
+        <div class="container">
+            <h2 class="section-title">Experiências</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-custom p-4">
+                        <h4>WF Desenvolvimento</h4>
+                        <p>Fullstack Developer (Julho de 2020 - Presente)</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom p-4">
+                        <h4>Eskenazi Indústria Gráfica</h4>
+                        <p>Team Lead (2017 - 2020)</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom p-4">
+                        <h4>IBC Software</h4>
+                        <p>Desenvolvedor Web (2012 - 2015)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Projetos -->
+    <section class="my-5">
+        <div class="container">
+            <h2 class="section-title">Projetos Recentes</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-custom p-4">
+                        <h4>Projeto 1</h4>
+                        <p>Descrição do projeto 1, focado em soluções para e-commerce com Laravel.</p>
+                        <a href="https://github.com/didicoBe/projeto1" class="btn btn-custom">Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom p-4">
+                        <h4>Projeto 2</h4>
+                        <p>Descrição do projeto 2, utilizando Python e integração com APIs REST.</p>
+                        <a href="https://github.com/didicoBe/projeto2" class="btn btn-custom">Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom p-4">
+                        <h4>Projeto 3</h4>
+                        <p>Descrição do projeto 3, soluções de front-end com React.</p>
+                        <a href="https://github.com/didicoBe/projeto3" class="btn btn-custom">Ver no GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="my-5">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p>Interessado em trabalhar comigo? Fique à vontade para me enviar um e-mail ou me adicionar no LinkedIn!</p>
+            <a href="mailto:wbn_k@hotmail.com" class="btn btn-custom">Enviar E-mail</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>Entre em contato: <a href="mailto:wbn_k@hotmail.com">wbn_k@hotmail.com</a></p>
+        <div class="container">
+            <p>© 2024 Waldir Bertuqui Neto Duarte</p>
+            <a href="https://www.linkedin.com/in/waldir-bertuqui-neto/">LinkedIn</a> | <a href="https://github.com/didicoBe">GitHub</a>
+        </div>
     </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
