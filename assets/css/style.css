@@ -24,6 +24,7 @@ body {
 }
 .btn-custom:hover {
     background-color: #6a0572;
+    color: white;
 }
 .section-title {
     color: #6a0572;
