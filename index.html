@@ -6,59 +6,22 @@
     <title>Waldir Bertuqui Neto Duarte - Desenvolvedor Fullstack</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f2f2f2;
-            color: #4d4d4d;
-        }
-        .hero {
-            background: linear-gradient(to right, #6a0572, #ff5f7e);
-            color: white;
-            padding: 100px 0;
-            text-align: center;
-        }
-        .btn-custom {
-            background-color: #ff5f7e;
-            color: white;
-            border-radius: 50px;
-            padding: 10px 30px;
-            font-size: 1.2em;
-        }
-        .btn-custom:hover {
-            background-color: #6a0572;
-        }
-        .section-title {
-            color: #6a0572;
-            margin-bottom: 40px;
-            text-align: center;
-        }
-        .card-custom {
-            border: none;
-            background-color: #fff;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #6a0572;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        footer a {
-            color: #ff5f7e;
-            text-decoration: none;
-        }
-        footer a:hover {
-            color: white;
-        }
-    </style>
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
 
+    <!-- Botão flutuante do WhatsApp -->
+    <a href="https://wa.me/5511982491715" target="_blank" class="whatsapp-btn">
+        <img src="https://image.flaticon.com/icons/svg/733/733585.svg" alt="WhatsApp" />
+    </a>
+
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
+        <div class="container text-center">
+            <img src="assets/img/final-(1) (1).jpg" alt="Minha Foto" class="rounded-circle profile-photo">
             <h1>Waldir Bertuqui Neto Duarte</h1>
-            <p>Desenvolvedor Fullstack com 15 anos de experiência em PHP, Python, Laravel, e muito mais.</p>
+            <p>Desenvolvedor Fullstack com 15 anos de experiência em PHP, Python, Laravel, React e muito mais.</p>
             <a href="#contato" class="btn btn-custom">Entre em contato</a>
         </div>
     </section>
@@ -67,7 +30,24 @@
     <section class="my-5">
         <div class="container">
             <h2 class="section-title">Sobre Mim</h2>
-            <p>Sou um desenvolvedor fullstack especializado em criar soluções inovadoras para web. Tenho uma vasta experiência trabalhando com empresas de diversos setores, incluindo a ONU, Panini, e Andbank Brasil. Sempre busco entregar projetos de alta qualidade, com foco em performance e usabilidade.</p>
+            <p>Sou um desenvolvedor fullstack com vasta experiência em criação de soluções web, APIs e sistemas integrados. Trabalhei em projetos internacionais e nacionais com clientes de alto perfil, como a ONU, Panini, e Andbank Brasil. Minha paixão é transformar ideias em produtos digitais eficientes e de alta performance.</p>
+        </div>
+    </section>
+
+    <!-- Tecnologias -->
+    <section class="my-5">
+        <div class="container">
+            <h2 class="section-title">Tecnologias</h2>
+            <div class="row">
+                <div class="col-md-3"><span class="badge badge-primary">PHP</span></div>
+                <div class="col-md-3"><span class="badge badge-primary">Python</span></div>
+                <div class="col-md-3"><span class="badge badge-primary">Laravel</span></div>
+                <div class="col-md-3"><span class="badge badge-primary">React</span></div>
+                <div class="col-md-3"><span class="badge badge-primary">JavaScript</span></div>
+                <div class="col-md-3"><span class="badge badge-primary">MySQL</span></div>
+                <div class="col-md-3"><span class="badge badge-primary">HTML5</span></div>
+                <div class="col-md-3"><span class="badge badge-primary">CSS3</span></div>
+            </div>
         </div>
     </section>
 
@@ -79,19 +59,22 @@
                 <div class="col-md-4">
                     <div class="card card-custom p-4">
                         <h4>WF Desenvolvimento</h4>
-                        <p>Fullstack Developer (Julho de 2020 - Presente)</p>
+                        <p><strong>Cargo:</strong> Fullstack Developer (Julho de 2020 - Presente)</p>
+                        <p>Atuei no desenvolvimento de sistemas completos, integrando APIs REST e criando soluções customizadas para diversos clientes, utilizando Laravel, React e MySQL.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-custom p-4">
                         <h4>Eskenazi Indústria Gráfica</h4>
-                        <p>Team Lead (2017 - 2020)</p>
+                        <p><strong>Cargo:</strong> Team Lead (2017 - 2020)</p>
+                        <p>Liderei uma equipe de desenvolvedores, focando no desenvolvimento de soluções internas com Zend Framework e integração com Oracle. Também atuei na criação de um sistema de administração e-commerce.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-custom p-4">
                         <h4>IBC Software</h4>
-                        <p>Desenvolvedor Web (2012 - 2015)</p>
+                        <p><strong>Cargo:</strong> Desenvolvedor Web (2012 - 2015)</p>
+                        <p>Desenvolvi soluções de front-end e back-end para Magento, além de trabalhar com WordPress em projetos institucionais. Integração de plataformas com ERP foi parte essencial do meu trabalho.</p>
                     </div>
                 </div>
             </div>
@@ -106,34 +89,35 @@
                 <div class="col-md-4">
                     <div class="card card-custom p-4">
                         <h4>Projeto 1</h4>
-                        <p>Descrição do projeto 1, focado em soluções para e-commerce com Laravel.</p>
+                        <p>Desenvolvimento de uma plataforma de e-commerce em Laravel, integrada com diversas APIs para automação de processos.</p>
                         <a href="https://github.com/didicoBe/projeto1" class="btn btn-custom">Ver no GitHub</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-custom p-4">
                         <h4>Projeto 2</h4>
-                        <p>Descrição do projeto 2, utilizando Python e integração com APIs REST.</p>
+                        <p>Criação de um sistema de gerenciamento de conteúdo usando React, com foco em escalabilidade e usabilidade.</p>
                         <a href="https://github.com/didicoBe/projeto2" class="btn btn-custom">Ver no GitHub</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card card-custom p-4">
                         <h4>Projeto 3</h4>
-                        <p>Descrição do projeto 3, soluções de front-end com React.</p>
+                        <p>Implementação de uma solução de integração com APIs REST usando Python e Flask, para automação de processos administrativos.</p>
                         <a href="https://github.com/didicoBe/projeto3" class="btn btn-custom">Ver no GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <!-- Contato -->
     <section id="contato" class="my-5">
-        <div class="container">
+        <div class="container text-center">
             <h2 class="section-title">Entre em Contato</h2>
-            <p>Interessado em trabalhar comigo? Fique à vontade para me enviar um e-mail ou me adicionar no LinkedIn!</p>
-            <a href="mailto:wbn_k@hotmail.com" class="btn btn-custom">Enviar E-mail</a>
+            <p>Interessado em trabalhar comigo? Envie uma mensagem no WhatsApp ou me adicione no LinkedIn!</p>
+            <a href="https://wa.me/5511982491715" class="btn btn-custom">WhatsApp</a>
+            <a href="https://www.linkedin.com/in/waldir-bertuqui-neto/" class="btn btn-custom">LinkedIn</a>
         </div>
     </section>
 
